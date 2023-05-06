@@ -7,7 +7,9 @@ edition = "2021"
 
 [dependencies]
 bevy = "0.10.1"
+bevy_asset_loader = "0.16.0"
 bevy_rapier3d = { version = "0.21.0", features = [ "simd-stable", "debug-render-3d" ] }
+rand = "0.8.5"
 
 # Enable a small amount of optimization in debug mode
 [profile.dev]
